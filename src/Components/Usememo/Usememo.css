@@ -1,0 +1,50 @@
+.memo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   background-color: #C8B6E2;
+    width: 60%;
+    height: 65vh;
+    margin: 4rem auto;
+    border-radius: 20px;
+}
+
+.memo_container h1{
+    font-size: 4.5rem;
+    color: #80558C;
+}
+
+
+.memo_container p{
+    /* border: 2px solid red; */
+    width: 70%;
+    text-align: center;
+    font-size: 2rem;
+    color: #80558C;
+    font-weight: 700;
+}
+
+.memo_container p input{
+    margin: 1.3rem;
+    height: 5vh;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 0 1rem 0 1rem;
+    caret-color: #80558C;
+    color: #80558C;
+}
+
+.memo_container h2{
+    border-radius:50px; 
+    padding: 1.4rem;
+    background-color:#80558C ;
+    color: #C8B6E2;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+
+}

@@ -1,0 +1,36 @@
+.usestate_container{
+    
+    width: 50vw;
+    height: 60vh;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #acd3ac;
+    border-radius: 30px;
+}
+
+.usestate_counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 50%;
+    height: 35%;
+    background-color:#42855B ;
+    border-radius: 30px;
+    font-size: 3.5rem;
+    color: #acd3ac;
+    overflow-y: hidden;
+}
+
+.usestate_container h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #42855B;
+}
+
+
+

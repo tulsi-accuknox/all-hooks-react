@@ -1,0 +1,65 @@
+.usereducer_container{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 70vh;
+    gap: 3rem;
+    
+    background-color: #bfe1ed;
+    margin: 4rem auto;
+    
+}
+
+.usereducer_container h1{
+    font-size: 4.5rem;
+    color: #0F3460;
+    overflow-y: hidden;
+    margin: 4rem;
+    
+   
+}
+
+.counter{
+    
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 55%;
+    height: 50vh;
+    margin-bottom: 4rem;
+    background-color: #0F3460;
+}
+
+.counter h2{
+    font-size: 3rem;
+    color: #bfe1ed;
+}
+.counter_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: 2px solid powderblue; */
+    width: 70%;
+}
+
+.counter_btns button{
+    background-color: #bfe1ed;
+    box-shadow: none;
+   font-size: 4rem;
+   color: #0F3460;
+   width: 100%;
+   border-radius: 50px;
+   height: 7vh;
+}
+
+.counter_btns button:hover{
+    color: #0F3460;
+}
